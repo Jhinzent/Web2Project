@@ -1,0 +1,28 @@
+GET http://localhost:80
+
+###
+
+GET http://localhost:80/json
+
+###
+
+GET http://localhost:80/api/publicUsers
+
+###
+
+GET http://localhost:80/api/degreeCourses
+
+###
+
+POST http://localhost:80/api/degreeCourses
+Content-Type: application/json
+
+{
+    "courseID": "manfred",
+    "universityName": "Beuth Hochschule für Technik Berlin",
+    "universityShortName": "Beuth HS",
+    "departmentName": "Informatik und Medien",
+    "departmentShortName": "FB VI",
+    "name": "Orchideenzucht Bachelor",
+    "shortName": "OZ-BA"
+}
