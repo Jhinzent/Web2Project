@@ -30,5 +30,3 @@ It provides endpoints for managing users, authentication, and course-related dat
 - **Database:** MongoDB with Mongoose  
 - **Authentication:** JWT, bcrypt  
 - **Other Tools:** Nodemon, Body-Parser, Config  
-
-## Project Structure
